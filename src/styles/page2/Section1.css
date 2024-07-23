@@ -1,0 +1,32 @@
+#page2Section1outer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    backdrop-filter: blur(20px);
+}
+#page2Section1Inner{
+    width: 70%;
+    height: 40px;
+    /* background-color: blue;   */
+    color: rgba(255, 255, 255, .8);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+@media screen and (orientation:portrait) {
+    #page2Section1Inner{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:1024px)  {
+    #page2Section1Inner{
+        font-size: 15px;
+    }
+}

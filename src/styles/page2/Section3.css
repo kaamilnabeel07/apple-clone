@@ -1,0 +1,155 @@
+#page2Section3_outer{
+    width: 100%;
+    height: 850px;
+    /* background-color: red; */
+}
+#page2Section3_inner{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2Section3_inner h2{
+    font-size: 45px;
+}
+#page2Section3_outer #page2Section3Slider{
+    width: 100%;
+    height: 650px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card{
+    width: 380px;
+    height: 500px;
+    border: 2px solid rgba(128, 128, 128, 0.253);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Image{
+    width: 100%;
+    height: 200px;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Content{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(245, 245, 247);
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Content #page2Section3Heading{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Content #page2Section3Description{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+    text-align: justify;
+    margin-left: 5%;
+    font-size: 16px;   
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Buttons{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Buttons a{
+    margin-left: 5%;
+    color: #0071e3;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+#page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Buttons a:hover{
+    border-bottom: 2px solid #2997FF ;
+}
+
+#page2Section3_outer #page2Section3_down{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+#page2Section3_outer #page2Section3_down p{
+    margin-bottom: 3%;
+}
+#page2Section3_outer #page2Section3_down a{
+    text-decoration: none;
+    color: #0071e3;
+    font-size: 20px;
+}
+#page2Section3_outer #page2Section3_down a:hover{
+    border-bottom: 2px solid #2997FF ;
+}
+
+
+
+@media screen and (orientation : portrait) {
+    #page2Section3_outer{
+        height: 1800px;
+    }
+    #page2Section3_inner h2{
+        font-size: 23px;
+    }
+    #page2Section3_outer #page2Section3Slider{
+        height: 1600px ;
+        flex-direction: column;
+    }
+    #page2Section3_outer #page2Section3Slider #page2Section3Card{
+        width: 90%;
+    }
+    #page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Content #page2Section3Description{
+        font-size: 14px; 
+    }
+   
+}
+
+@media screen and (min-width:426px) and (max-width:1024px)  {
+    #page2Section3_outer{
+        height: 1800px;
+    }
+    #page2Section3_inner h2{
+        font-size: 23px;
+    }
+    #page2Section3_outer #page2Section3Slider{
+        height: 1600px ;
+        flex-direction: column;
+    }
+    #page2Section3_outer #page2Section3Slider #page2Section3Card{
+        width: 90%;
+    }
+    #page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Content #page2Section3Description{
+        font-size: 14px; 
+    }
+    #page2Section3_outer #page2Section3Slider #page2Section3Card #page2Section3Image img{
+        object-fit: cover;
+    }
+}

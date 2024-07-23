@@ -1,0 +1,415 @@
+#page1Section4{
+    width: 100%;
+    height: 1550px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page1Section4 #page1Section4Outer{
+    width: 100%;
+    height: 1520px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#page1Section4 #page1Section4Outer #page1Section4first,#page1Section4Second,#page1Section4Third{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid black; */
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full{
+    width: 100%;
+    height: 490px;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 1%;
+}
+
+
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left{
+    width: 50%;
+    height: 490px;
+    /* border: 2px solid red; */
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image1.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1 h1,h3{
+    padding-top: 3%;    
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right{
+    width: 49%;
+    height: 490px;
+    /* background-color: blue; */
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image2.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1 h1,p{
+    padding-top: 3%;    
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #1D1D1F;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #1D1D1F;
+    background-color: transparent;
+    color: #1D1D1F;
+}
+#page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #1D1D1F;
+    color: white;
+}
+
+
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full{
+    width: 100%;
+    height: 490px;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 1%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left{
+    width: 50%;
+    height: 490px;
+    /* border: 2px solid red; */
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image3.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1 h1,h4{
+    padding-top: 3%; 
+    color: black;   
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right{
+    width: 49%;
+    height: 490px;
+    /* background-color: blue; */
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image4.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 span{
+    color: orange;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 h1,h4{
+    padding-top: 3%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+}
+#page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+
+
+
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full{
+    width: 100%;
+    height: 490px;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 1%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left{
+    width: 50%;
+    height: 490px;
+    /* border: 2px solid red; */
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image5.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1 h1,h3{
+    padding-top: 3%;    
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right{
+    width: 49%;
+    height: 490px;
+    /* background-color: blue; */
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1{
+    width: 100%;
+    height: 490px;
+    /* border: 2px solid blue; */
+    background-image: url("../../asset/images/page1Section4Image6.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1 h1,h3{
+    padding-top: 3%;    
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons button{
+    width: 150px;
+    height: 40px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2{
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    color: #0071E3;
+}
+#page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right #page1Section4Inner1 #page1Section4Buttons #page1Section4Button2:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    #page1Section4{
+        height: 3010px;
+        display: block;
+    }
+    #page1Section4 #page1Section4Outer{
+        display: block;
+        height: 3000px;
+    }
+
+    #page1Section4 #page1Section4Outer #page1Section4first{
+        height: 1000px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full{
+        flex-direction: column;
+        height: 1000px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Left{
+        width: 100%;
+        font-size: 13px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4first #page1Section4Full #page1Section4Right{
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+    #page1Section4 #page1Section4Outer #page1Section4Second{
+        height: 1000px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    #page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Left{
+        width: 100%;
+        font-size: 13px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4Second #page1Section4Full #page1Section4Right{
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+    #page1Section4 #page1Section4Outer #page1Section4Third{
+        height: 1000px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full{
+        flex-direction: column;
+        height: 1000px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Left{
+        width: 100%;
+        font-size: 13px;
+    }
+    #page1Section4 #page1Section4Outer #page1Section4Third #page1Section4Full #page1Section4Right{
+        width: 100%;
+        font-size: 13px;
+    }
+}
